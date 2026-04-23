@@ -3,7 +3,7 @@ class ChromeCli < Formula
   homepage "https://github.com/lucacome/chrome-cli"
   url "https://github.com/lucacome/chrome-cli/releases/download/v2.0.0/chrome-cli-v2.0.0-macos.tar.gz"
   sha256 "284529ebb3331677c36d99ef8bbb1a2eae1be0469dd806f35dcaed5388ec78ca"
-  version "2.0.0"
+  license "MIT"
 
   livecheck do
     url :stable
