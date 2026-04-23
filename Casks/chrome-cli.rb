@@ -19,6 +19,7 @@ cask "chrome-cli" do
   # depends_on macos: ""
 
   # app ""
+  binary "chrome-cli"
 
   # Documentation: https://docs.brew.sh/Cask-Cookbook#stanza-zap
   # zap trash: ""
