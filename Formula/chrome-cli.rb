@@ -14,14 +14,16 @@ class ChromeCli < Formula
   depends_on "fzf"
 
   def install
-    bin.install "chrome-cli"
+    root = "chrome-cli-v#{version}-macos"
+
+    bin.install "#{root}/chrome-cli"
     # Install wrapper scripts for chrome compatible browsers
-    bin.install "scripts/chrome-canary-cli"
-    bin.install "scripts/chromium-cli"
-    bin.install "scripts/brave-cli"
-    bin.install "scripts/vivaldi-cli"
-    bin.install "scripts/edge-cli"
-    bin.install "scripts/arc-cli"
+    bin.install "#{root}/scripts/chrome-canary-cli"
+    bin.install "#{root}/scripts/chromium-cli"
+    bin.install "#{root}/scripts/brave-cli"
+    bin.install "#{root}/scripts/vivaldi-cli"
+    bin.install "#{root}/scripts/edge-cli"
+    bin.install "#{root}/scripts/arc-cli"
     system "/usr/bin/xattr", "-dr", "com.apple.quarantine", bin/"chrome-cli" if OS.mac?
   end
 
