@@ -1,8 +1,8 @@
 class ChromeCli < Formula
   desc "Control Google Chrome from the command line"
   homepage "https://github.com/lucacome/chrome-cli"
-  url "https://github.com/lucacome/chrome-cli/releases/download/v2.0.3/chrome-cli-v2.0.3-macos.tar.gz"
-  sha256 "fb55c0a1635f89ba63ae378cecbe631d46e20544b6a86c0fa20d9942b8ddf631"
+  url "https://github.com/lucacome/chrome-cli/releases/download/v2.0.4/chrome-cli-v2.0.4-macos.tar.gz"
+  sha256 "8b6ef81f74aa63d0fb657051dcd89c6a101ddcde975154691edf3be245aa8fc6"
   license "MIT"
 
   livecheck do
